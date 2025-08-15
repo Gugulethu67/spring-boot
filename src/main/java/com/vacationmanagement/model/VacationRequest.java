@@ -48,7 +48,6 @@ public class VacationRequest {
         this.status = VacationStatus.PENDING;
     }
 
-
     public Long getId() {
         return id;
     }

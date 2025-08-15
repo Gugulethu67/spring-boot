@@ -17,7 +17,6 @@ public class VacationDaysDto {
         this.remainingVacationDays = remainingVacationDays;
     }
 
-
     public Long getEmployeeId() {
         return employeeId;
     }

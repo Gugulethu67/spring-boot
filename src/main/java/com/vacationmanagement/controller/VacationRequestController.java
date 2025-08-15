@@ -90,7 +90,6 @@ public class VacationRequestController {
         }
     }
 
- 
     @GetMapping("/status/{status}")
     public ResponseEntity<List<VacationRequestDto>> getRequestsByStatus(@PathVariable String status) {
         try {
@@ -133,7 +132,6 @@ public class VacationRequestController {
         }
     }
 
-
     @GetMapping("/date-range")
     public ResponseEntity<List<VacationRequestDto>> getRequestsByDateRange(
             @RequestParam("start") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate startDate,
@@ -145,7 +143,6 @@ public class VacationRequestController {
             return ResponseEntity.badRequest().build();
         }
     }
-
 
     @GetMapping("/summary")
     public ResponseEntity<Map<String, Object>> getRequestsSummary() {

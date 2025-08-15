@@ -20,7 +20,6 @@ public class EmployeeOverviewDto {
 
     public EmployeeOverviewDto() {}
 
-
     public EmployeeOverviewDto(Long employeeId, String employeeName, String email, Boolean isManager,
                               Integer totalVacationDays, Integer vacationDaysUsed, Integer remainingVacationDays,
                               List<VacationRequestDto> allRequests, Integer pendingRequestsCount,
